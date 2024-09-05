@@ -4,16 +4,16 @@ namespace ATV_GeometricShape.Circle
 {
     internal class Circle : GeometricShape
     {
-        public float Pi = 3.1415f;
-        public float Ray;
+        public float pi = 3.1415f;
+        public float raio;
 
         public override float Area()
         {
-            return (Pi * Ray);
+            return (pi * raio);
         }
         public override float Perimeter()
         {
-            return (2 * Pi * Ray);
+            return (2 * pi * raio);
         }
 
     }
